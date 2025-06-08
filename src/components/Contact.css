@@ -1,0 +1,55 @@
+.contact-wrapper {
+  background-color: #111;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.contact-top-image {
+  width: 50px;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+.contact-title {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+}
+
+.contact-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 430px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.contact-column {
+  flex: 1;
+  min-width: 150px;
+  text-align: left;
+}
+
+.contact-column h3 {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+.contact-column h4 {
+  font-size: 16px;
+  margin: 1rem 0 0.5rem;
+}
+
+.contact-column p {
+  font-size: 14px;
+  margin: 0.3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-column a {
+  margin-left: 8px;
+  font-size: 16px;
+}
