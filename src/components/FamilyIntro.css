@@ -1,0 +1,56 @@
+.family-intro-section {
+  padding: 2rem 1rem;
+  background-color: #f8f6f4;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.family-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+.family-box {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.family-photo {
+  width: 120px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.name-label {
+  font-size: 1.1rem;
+  margin: 0.2rem 0;
+}
+
+.role {
+  font-size: 0.85rem; /* 기존보다 작게 조절 */
+  font-weight: bold;
+  margin-right: 0.3rem;
+}
+
+.role.groom {
+  color: #5386b2;
+}
+
+.role.bride {
+  color: #c96b8d;
+}
+
+.name {
+  font-size: 1.1rem;
+  color: #111;
+}
+
+.parents {
+  font-size: 0.95rem;
+  color: #555;
+}

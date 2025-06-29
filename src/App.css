@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-color: #fff;
+  background-color: #ddd;
   font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
-  color: #fff;
+  color: #111;
 }.typing-text {
   font-family: 'Great Vibes', cursive;
 }
@@ -11,7 +11,7 @@ body {
 .container {
   max-width: 430px;
   margin: 0 auto;
-  background-color: #111;
+  background-color: #f8f6f4;
   min-height: 100vh;
   margin-bottom: 10rem;
 }
@@ -59,15 +59,15 @@ body {
 .section-divider hr {
   width: 30%;
   height: 1px;
-  background-color: #bbb;
+  background-color: #0a5615;
   border: none;
   opacity: 0.5;
 }
 
 .section-title {
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 1.5rem;
-  color: #bbb;
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 1.1rem;
+  color: #0a5615;
   margin: 0;
   white-space: nowrap;
 }

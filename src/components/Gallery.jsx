@@ -11,27 +11,34 @@ import cover8 from '../assets/cover8.jpg';
 import cover9 from '../assets/cover9.jpg';
 import cover10 from '../assets/cover10.jpg';
 
-const images = [
-  cover1, cover2, cover3, cover4, cover5,
-  cover6, cover7, cover8, cover9, cover10
-];
+const images = [cover1, cover2, cover3, cover4, cover5, cover6, cover7, cover8, cover9, cover10];
 
 function Gallery() {
   const [selectedImage, setSelectedImage] = useState(images[0]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const carouselRef = useRef(null);
 
   const scrollLeft = () => carouselRef.current.scrollBy({ left: -100, behavior: 'smooth' });
   const scrollRight = () => carouselRef.current.scrollBy({ left: 100, behavior: 'smooth' });
 
+  const openModal = (index) => {
+    setCurrentIndex(index);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => setIsModalOpen(false);
+
+  const prevImage = () => setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
+  const nextImage = () => setCurrentIndex((prev) => (prev + 1) % images.length);
+
   return (
     <div className="gallery-wrapper">
       <div className="section-divider">
-        <hr />
         <h2 className="section-title">갤러리</h2>
-        <hr />
       </div>
 
-      <div className="main-image-wrapper">
+      <div className="main-image-wrapper" onClick={() => openModal(images.indexOf(selectedImage))}>
         <img src={selectedImage} alt="selected" className="main-image" />
       </div>
 
@@ -50,6 +57,17 @@ function Gallery() {
         </div>
         <button className="arrow right" onClick={scrollRight}>&gt;</button>
       </div>
+
+      {isModalOpen && (
+        <div className="modal-overlay" onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-btn" onClick={closeModal}>×</button>
+            <button className="nav-btn left" onClick={prevImage}>❮</button>
+            <img src={images[currentIndex]} alt="fullscreen" className="modal-image" />
+            <button className="nav-btn right" onClick={nextImage}>❯</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

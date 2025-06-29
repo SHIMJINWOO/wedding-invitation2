@@ -1,91 +1,118 @@
+/* ✅ src/components/Location.css */
+
 .location-section {
-    padding: 2rem 1rem;
-    background-color: #111;
-    color: #fff;
-    text-align: center;
-  }
-  
-  .location-map {
-    margin: 16px auto;
-    width: 100%;
-    max-width: 380px;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  .location-map img {
-    width: 100%;
-    display: block;
-    border-radius: 8px;
-  }
-  
-  .location-text-links {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    margin: 16px 0;
-    flex-wrap: wrap;
-  }
-  
-  .location-text-links a {
-    color: #fff;
-    font-size: 14px;
-    background-color: #444;
-    padding: 6px 10px;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: background-color 0.2s ease;
-  }
-  
-  .location-text-links a:hover {
-    background-color: #666;
-  }
-  
-  .location-link-icons {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin: 24px 0;
-    flex-wrap: wrap;
-  }
-  
-  .location-link-icons a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: #fff;
-    font-size: 14px;
-    width: 64px;
-    transition: transform 0.2s ease;
-  }
-  
-  .location-link-icons a:hover {
-    transform: scale(1.1);
-  }
-  
-  .location-link-icons img {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
-    object-fit: cover;
-    margin-bottom: 6px;
-    background-color: white;
-  }
-  
-  
-  
-  .location-details {
-    text-align: left;
-    max-width: 380px;
-    margin: 0 auto;
-    font-size: 14px;
-    line-height: 1.6;
-  }
-  
-  .location-details h3 {
-    font-size: 16px;
-    margin: 16px 0 8px;
-  }
-  
+  background-color: #f8f6f4;
+  color: #111;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.section-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.section-divider hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.section-title {
+  font-size: 1rem;
+  color: #234d20;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.map-container p {
+  margin: 0.3rem 0;
+  line-height: 1.6;
+}
+
+.venue-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.venue-sub,
+.venue-address {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+}
+
+.map-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.info-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  background: #f8f6f4;
+  border-radius: 1px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.08);
+  padding: 0.3rem 1rem;
+  height: 33px;
+  width: 100%; /* 버튼이 그리드 셀 내에서 균일하게 */
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #111;
+
+  box-sizing: border-box;
+}
+
+.info-button img {
+  height: 20px;
+  width: auto;
+}
+
+.info-button span {
+  flex: 1;
+  text-align: center;
+  margin-left: -20px; /* 아이콘이 차지한 공간 보정 */
+}
+
+
+.info-details {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+.info-details-section {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  color: #333;
+}
+
+.info-item {
+  margin-bottom: 1.5rem;
+}
+
+.info-title {
+  font-weight: bold;
+  font-size: 1.05rem;
+  margin-bottom: 0.3rem;
+}
