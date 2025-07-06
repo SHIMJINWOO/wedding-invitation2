@@ -1,7 +1,7 @@
 // ✅ src/components/Cover.js
 import React, { useEffect, useState } from 'react';
 import './Cover.css';
-import mainCover from '../assets/mainCover1.png';
+import mainCover from '../assets/mainCover_downsize.png';
 
 const Cover = ({ showMain }) => {
   const topText = "We're getting\nmarried!";
