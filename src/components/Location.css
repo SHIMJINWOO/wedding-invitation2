@@ -116,3 +116,26 @@
   font-size: 1.05rem;
   margin-bottom: 0.3rem;
 }
+.info-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px; /* 아이콘과 텍스트 간격 */
+  padding: 0.3rem 0.5rem;
+  height: 36px;
+  font-size: 0.75rem;
+  white-space: nowrap; /* ✅ 줄바꿈 방지 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info-button img {
+  height: 18px;
+  width: auto;
+}
+
+.info-button span {
+  display: inline-block;
+  margin: 0;
+  font-weight: 500;
+}
