@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwedding_invitation1=self.webpackChunkwedding_invitation1||[]).push([[759],{809:(i,e,s)=>{s.r(e),s.d(e,{default:()=>d});s(43);const a=s.p+"static/media/main.c71625429b693e752717.jpg";var c=s(579);const d=()=>(0,c.jsx)("div",{className:"cover-wrapper",children:(0,c.jsx)("div",{className:"cover-grid",children:(0,c.jsx)("div",{className:"grid-cell",children:(0,c.jsx)("img",{src:a,alt:"cover",className:"grid-img"})})})})}}]);
+//# sourceMappingURL=759.212e8dd7.chunk.js.map
