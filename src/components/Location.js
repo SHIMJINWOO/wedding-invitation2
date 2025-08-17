@@ -15,8 +15,8 @@ const Location = () => {
       </div>
 
       <div className="map-container">
-        <p>2025년 11월 8일 일요일 오후 6시 10분</p>
-        <p className="venue-name">스타시티 아트홀 영존 5층</p>
+        <p className="venue-name">2025년 11월 8일 토요일 오후 6시 10분</p>
+        <p >스타시티 아트홀 영존 5층</p>
         <p className="venue-address">서울 광진구 능동로 110</p>
 
         {/* 지도 이미지로 대체 */}

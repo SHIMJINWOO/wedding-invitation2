@@ -7,10 +7,9 @@ import cover4 from '../assets/gallery4.jpg';
 import cover5 from '../assets/gallery5.jpg';
 import cover6 from '../assets/gallery6.jpg';
 import cover7 from '../assets/gallery7.jpg';
-import cover8 from '../assets/gallery8.jpg';
 import cover9 from '../assets/gallery9.jpg';
 
-const images = [cover1, cover2, cover3, cover4, cover5, cover6, cover7, cover8, cover9];
+const images = [cover1, cover2, cover3, cover4, cover5, cover6, cover7, cover9];
 
 function Gallery() {
   const [selectedImage, setSelectedImage] = useState(images[0]);

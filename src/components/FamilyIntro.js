@@ -21,7 +21,7 @@ const FamilyIntro = () => {
         {/* 신부 */}
         <div className="family-box bride">
           <p className="name-label">
-            <span className="role bride">신부</span> <span className="name">구 슬</span>
+            <span className="role bride">신부</span> <span className="name">구  슬</span>
           </p>
           <p className="parents">구자걸 · 이은지 의 장녀</p>
         </div>
