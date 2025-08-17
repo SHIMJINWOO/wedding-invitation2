@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding-invitation2/static/css/main.998e434c.css",
-    "main.js": "/wedding-invitation2/static/js/main.e9d1cdcf.js",
+    "main.js": "/wedding-invitation2/static/js/main.0df67014.js",
     "static/css/759.e7ac974b.chunk.css": "/wedding-invitation2/static/css/759.e7ac974b.chunk.css",
     "static/js/759.212e8dd7.chunk.js": "/wedding-invitation2/static/js/759.212e8dd7.chunk.js",
     "static/js/584.762f4d4f.chunk.js": "/wedding-invitation2/static/js/584.762f4d4f.chunk.js",
@@ -11,7 +11,6 @@
     "static/media/gallery4.jpg": "/wedding-invitation2/static/media/gallery4.83cdcf98c0ae9f7e43a5.jpg",
     "static/media/gallery6.jpg": "/wedding-invitation2/static/media/gallery6.b27e597ddf58d0b2a11f.jpg",
     "static/media/gallery7.jpg": "/wedding-invitation2/static/media/gallery7.8c0c4357040d173db198.jpg",
-    "static/media/gallery8.jpg": "/wedding-invitation2/static/media/gallery8.dd0ddc19023d476cce3b.jpg",
     "static/media/profile3.jpg": "/wedding-invitation2/static/media/profile3.222b04765303fa9f7b6d.jpg",
     "static/media/gallery1.jpg": "/wedding-invitation2/static/media/gallery1.efe676586c9b27691cce.jpg",
     "static/media/gallery3.jpg": "/wedding-invitation2/static/media/gallery3.64dc859eb15918f261dc.jpg",
@@ -22,13 +21,13 @@
     "static/media/Tmap.png": "/wedding-invitation2/static/media/Tmap.6ea2805e5b7cf851a06b.png",
     "index.html": "/wedding-invitation2/index.html",
     "main.998e434c.css.map": "/wedding-invitation2/static/css/main.998e434c.css.map",
-    "main.e9d1cdcf.js.map": "/wedding-invitation2/static/js/main.e9d1cdcf.js.map",
+    "main.0df67014.js.map": "/wedding-invitation2/static/js/main.0df67014.js.map",
     "759.e7ac974b.chunk.css.map": "/wedding-invitation2/static/css/759.e7ac974b.chunk.css.map",
     "759.212e8dd7.chunk.js.map": "/wedding-invitation2/static/js/759.212e8dd7.chunk.js.map",
     "584.762f4d4f.chunk.js.map": "/wedding-invitation2/static/js/584.762f4d4f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.998e434c.css",
-    "static/js/main.e9d1cdcf.js"
+    "static/js/main.0df67014.js"
   ]
 }
