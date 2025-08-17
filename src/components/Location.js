@@ -38,7 +38,7 @@ const Location = () => {
       <div className="info-details-section">
         <div className="info-item">
           <p className="info-title">🚗 자차</p>
-          <p>건물 내 B1 ~ B5 | 2시간 무료 주차 <br/>건국대학교 병원 지상• 지하 주차장 | 1시간 30분 무료주차</p>
+          <p>건물 내 B1 ~ B5 | 2시간 무료 <br/>건국대 병원 지상• 지하 주차장 | 1시간 30분 무료</p>
         </div>
 
         <div className="info-item">
