@@ -2,15 +2,13 @@ import React, { useState } from 'react';
 import './Account.css';
 
 const groomAccounts = [
-  { name: '심진우', bank: '신한은행', number: '110-307-940143' },
-  { name: '심재노', bank: '하나은행', number: '102-890042-44407' },
-  { name: '정영란', bank: '하나은행', number: '317-910298-52507' },
+  { name: '정봉옥', bank: '국민은행', number: '441501-01-277364' },
+  { name: '신제천', bank: '신한은행', number: '110-270-948498' },
 ]; 
 
 const brideAccounts = [
-  { name: '임혜진', bank: '우리은행', number: '1002-750-980259' },
-  { name: '임재성', bank: '농협은행', number: '356-1592-7593-73' },
-  { name: '박혜자', bank: '우리은행', number: '1002-741-531653' },
+  { name: '구자걸', bank: '하나은행', number: '190-810915-91007' },
+  { name: '구 슬', bank: '신한은행', number: '110-424-178692' },
 ];
 
 const copyToClipboard = (text) => {

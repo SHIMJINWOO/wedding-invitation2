@@ -1,7 +1,7 @@
 /* ✅ src/components/Location.css */
 
 .location-section {
-  background-color: #f8f6f4;
+  background-color: #ffffff;
   color: #111;
   padding: 2rem 1rem;
   text-align: center;
@@ -24,7 +24,7 @@
 
 .section-title {
   font-size: 1rem;
-  color: #234d20;
+  color: #BFA26C;
   font-weight: 500;
   margin-bottom: 1rem;
 }
@@ -65,7 +65,7 @@
   justify-content: center;
   gap: 0.5rem;
 
-  background: #f8f6f4;
+  background: #ffffff;
   border-radius: 1px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.08);
   padding: 0.3rem 1rem;

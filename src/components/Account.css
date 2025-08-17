@@ -1,6 +1,6 @@
 .account-section {
   margin-top : 80px;
-  background-color: #f8f6f4;
+  background-color: #ffffff;
   padding: 2rem 1rem;
   text-align: center;
   font-family: 'Gowun Dodum', sans-serif;
@@ -8,7 +8,7 @@
 }
 
 .account-title {
-  color: #234d20;
+  color: #BFA26C;
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
