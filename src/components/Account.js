@@ -7,7 +7,7 @@ const groomAccounts = [
 ]; 
 
 const brideAccounts = [
-  { name: '구자걸', bank: '하나은행', number: '190-810915-91007' },
+  { name: '구자걸', bank: '하나은행', number: '190-810915-61007' },
   { name: '구\u00A0\u00A0슬', bank: '신한은행', number: '110-424-178692' },
 ];
 
